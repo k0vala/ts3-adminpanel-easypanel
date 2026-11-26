@@ -107,7 +107,7 @@
 - Program sunucuna **senin yetkilerinle** bağlanır; yetkinin yetmediği bir işlemi zaten yapamaz.
 - Toplu işlemler önce **ne yapılacağını gösterir**, sen onaylamadan başlamaz.
 - Her abonelik **tek bilgisayarda** çalışır (cihaz kilidi). Bilgisayar değiştirirsen sıfırlatman yeterli.
-- Hesabını istediğin an **program içinden silebilirsin** (KVKK).
+- Hesabını istediğin an **program içinden silebilirsin**.
 
 ## 💻 Gereksinimler
 
