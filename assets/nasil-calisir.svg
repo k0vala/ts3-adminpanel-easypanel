@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="1200" height="440" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="40" y="52" fill="#0f172a" font-size="24" font-weight="700">Nasıl çalışır?</text>
+  <text x="40" y="80" fill="#64748b" font-size="15">TeamSpeak'e ait her şey senin bilgisayarında kalır; bulutta yalnızca hesap ve abonelik bilgisi durur.</text>
+
+  <!-- senin bilgisayarın -->
+  <rect x="40" y="110" width="640" height="300" rx="16" fill="#ffffff" stroke="#c7d2fe" stroke-width="2"/>
+  <text x="64" y="146" fill="#4338ca" font-size="17" font-weight="700">SENİN BİLGİSAYARIN</text>
+  <rect x="64" y="170" width="250" height="120" rx="12" fill="#eef2ff" stroke="#a5b4fc"/>
+  <text x="189" y="214" fill="#1e1b4b" font-size="20" font-weight="700" text-anchor="middle">EasyPanel</text>
+  <text x="189" y="240" fill="#475569" font-size="13" text-anchor="middle">roller, kanallar, ban, kick,</text>
+  <text x="189" y="258" fill="#475569" font-size="13" text-anchor="middle">izinler, kayıtlar</text>
+  <rect x="404" y="170" width="250" height="120" rx="12" fill="#ecfeff" stroke="#67e8f9"/>
+  <text x="529" y="214" fill="#083344" font-size="20" font-weight="700" text-anchor="middle">TeamSpeak 3</text>
+  <text x="529" y="240" fill="#475569" font-size="13" text-anchor="middle">açık istemci (ClientQuery)</text>
+  <text x="529" y="258" fill="#475569" font-size="13" text-anchor="middle">veya ServerQuery</text>
+  <line x1="318" y1="230" x2="400" y2="230" stroke="#64748b" stroke-width="2.5" marker-start="url(#ar)" marker-end="url(#ar)"/>
+  <text x="359" y="218" fill="#64748b" font-size="12" text-anchor="middle">yerel</text>
+  <rect x="64" y="312" width="590" height="76" rx="10" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="84" y="342" fill="#166534" font-size="15" font-weight="700">Burada kalır, hiçbir yere gönderilmez:</text>
+  <text x="84" y="368" fill="#166534" font-size="14">API key · ServerQuery şifresi · sunucundaki kişiler, kanallar, sohbetler · tüm kayıt dosyaları</text>
+
+  <!-- bulut -->
+  <rect x="770" y="110" width="390" height="300" rx="16" fill="#ffffff" stroke="#ddd6fe" stroke-width="2"/>
+  <text x="794" y="146" fill="#6d28d9" font-size="17" font-weight="700">EASYPANEL HESABI (BULUT)</text>
+  <text x="794" y="186" fill="#334155" font-size="15">✓ Kullanıcı adı ve e-posta</text>
+  <text x="794" y="214" fill="#334155" font-size="15">✓ Abonelik başlangıç / bitiş</text>
+  <text x="794" y="242" fill="#334155" font-size="15">✓ Cihaz kilidi (geri çözülemez özet)</text>
+  <text x="794" y="270" fill="#334155" font-size="15">✓ Güncellemeler (yalnızca abonelere)</text>
+  <text x="794" y="298" fill="#334155" font-size="15">✓ Onay verirsen hata raporu</text>
+  <rect x="794" y="322" width="342" height="66" rx="10" fill="#faf5ff" stroke="#d8b4fe"/>
+  <text x="812" y="350" fill="#6b21a8" font-size="14" font-weight="700">Şifren bile görünmez</text>
+  <text x="812" y="372" fill="#6b21a8" font-size="13">geri çözülemez biçimde (hash) saklanır</text>
+  <line x1="684" y1="230" x2="766" y2="230" stroke="#64748b" stroke-width="2.5" stroke-dasharray="7 6" marker-end="url(#ar)"/>
+  <text x="725" y="218" fill="#64748b" font-size="12" text-anchor="middle">HTTPS</text>
+  <text x="725" y="250" fill="#64748b" font-size="12" text-anchor="middle">giriş</text>
+</svg>
