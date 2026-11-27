@@ -5,12 +5,14 @@
 <h1 align="center">EasyPanel</h1>
 
 <p align="center">
-  TeamSpeak 3 sunucuları için sade Windows yönetim paneli.<br>
-  Rol verme, kanal düzenleme, izin yönetimi ve moderasyon kayıtları tek pencerede.
+  TeamSpeak 3 sunucuları için modern, Türkçe Windows yönetim paneli.<br>
+  18 yönetim bölümü, 265+ açıklamalı izin, Client Veritabanı, yan hesap tespiti, SSH tüneli ve kalıcı moderasyon kayıtları tek pencerede.
 </p>
 
 <p align="center">
   <a href="https://easypanel.tr"><b>easypanel.tr</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://easypanel.tr/yatqa-alternatifi/">YaTQA Alternatifi</a>
   &nbsp;·&nbsp;
   <a href="https://easypanel.tr/hesap/">Hesabım</a>
   &nbsp;·&nbsp;
@@ -24,7 +26,7 @@
 </p>
 
 <p align="center">
-  <sub>Windows 10 / 11 · Türkçe / English · Kurulumsuz tek dosya · Kapalı Beta</sub>
+  <sub>Windows 10 / 11 · Türkçe / English · 18 yönetim bölümü · Kurulumsuz tek dosya · Kapalı Beta</sub>
 </p>
 
 <p align="center">
@@ -40,29 +42,27 @@
 - **Tamamen Türkçe arayüz:** 265'ten fazla TeamSpeak izni açıklamalarıyla birlikte Türkçe. Tek tıkla İngilizceye geçilebilir.
 - **Kendi yetkinle çalışır:** Yalnızca yetkinin yettiği rolleri ve işlemleri gösterir; yetkin değiştiğinde listeler otomatik güncellenir.
 - **Onay olmadan işlem yok:** Toplu işlemlerde önce ne yapılacağı özetlenir, onay verilmeden başlamaz.
-- **Verilerin bilgisayarında kalır:** API anahtarı, ServerQuery şifresi ve sunucuna ait tüm veriler yalnızca kendi bilgisayarında tutulur.
+- **Verilerin bilgisayarında kalır:** API anahtarı, ServerQuery/SSH şifresi ve sunucuna ait tüm veriler yalnızca kendi bilgisayarında tutulur.
 - **Sunucuyu yormaz:** Komutları aralıklarla ve birleştirerek gönderir; flood veya paket hatası yüzünden sunucudan düşmezsin.
 
 <a id="ozellikler"></a>
-## Özellikler
+## Özellikler (18 Yönetim Bölümü)
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Roller ve kullanıcılar
+### Roller, kullanıcılar ve veritabanı
 - Tek tek veya toplu rol verme / alma, rol baloncuğundan tek tıkla rol kaldırma
 - Birden fazla role göre **VE / VEYA** filtreleme
-- Client ID, DB ID, IP, Unique ID ve **eski isim geçmişi** aynı tabloda
-- Taşıma, dürtme, özel mesaj, kanaldan / sunucudan atma, banlama, Talk Power
-- Herkesi tek komutla kanala çekme, hızlı veya güvenli modda toplu dürtme / mesaj
-- Mikrofonunu devre dışı bırakanları anlık listeleme
+- **Client Veritabanı:** Çevrimdışı hesaplar dahil tüm kayıtlı kişiler, ban işaretleme, **asla silinmeyen eski isim arşivi** ve CSV dışa aktarma
+- **Aynı IP yan hesap tespiti:** Ortak IP paylaşan hesaplarda otomatik uyarı ve çift tıkla tüm hesap/UID/eski isim detay penceresi
+- Taşıma, dürtme, özel mesaj, kanaldan / sunucudan atma, banlama, Talk Power ve herkesi tek komutla kanala çekme
 
-### Kanallar
+### Kanallar ve sunucu araçları
 - Kanal ağacı ve tam ayar düzenleyici (ad, konu, açıklama, şifre, kodek, kalite, Talk Power)
-- Kanal oluşturma, alt kanal açma, silme, sıralama ve taşıma
-- Tek tek veya toplu kanal simgesi atama
-- **Toplu ad biçimi:** Tüm kanal adlarını tek seferde biçimlendirme ve geri alma
+- **Toplu kanal oluşturma** (şablondan numaralı odalar) ve geri almalı **toplu ad biçimi**
+- **SSH tüneli**, çoklu sunucu sekmeleri, **Sanal Sunucular (Instance + genel duyuru)**, **Medya Galerisi** ve **Ham ServerQuery Konsolu**
 
 </td>
 <td width="50%" valign="top">
@@ -70,7 +70,8 @@
 ### İzinler ve moderasyon
 - TeamSpeak izin penceresinin tamamı: sunucu grupları, kişi izinleri, kanal izinleri ve kanal grupları
 - **Güç önizleme:** Seçilen güç değerinin hangi rol veya kanallara yettiğini anlık görme
-- Ban yönetimi, yetki anahtarları ve sunucu ayarları
+- **İzin Bulucu**, iki rolü yan yana **Rol Karşılaştırma** ve **sunucular arası rol kopyalama**
+- Ban yönetimi, yetki anahtarları, sunucu ayarları ve canlı ping / paket kaybı istatistik şeridi
 
 ### Kayıtlar ve sohbet
 - **Rol kayıtları:** Hangi rolü kimin verip aldığının kalıcı kaydı
@@ -89,7 +90,7 @@
 <table>
 <tr>
 <td width="50%"><img src="assets/roller.png" alt="Roller"><br><sub><b>Roller</b> — yetkiye göre listelenen roller, toplu verme ve alma</sub></td>
-<td width="50%"><img src="assets/kullanicilar.png" alt="Kullanıcılar"><br><sub><b>Kullanıcılar</b> — ID, IP, Unique ID ve eski isim geçmişi</sub></td>
+<td width="50%"><img src="assets/kullanicilar.png" alt="Kullanıcılar"><br><sub><b>Kullanıcılar</b> — ID, IP, Unique ID ve anlık moderasyon</sub></td>
 </tr>
 <tr>
 <td><img src="assets/izinler.png" alt="İzinler"><br><sub><b>İzinler</b> — TeamSpeak izin penceresinin Türkçe hâli</sub></td>
@@ -97,7 +98,7 @@
 </tr>
 <tr>
 <td><img src="assets/rol-kayitlari.png" alt="Rol kayıtları"><br><sub><b>Rol kayıtları</b> — hangi rolü kimin verip aldığının kaydı</sub></td>
-<td><img src="assets/kanal-sohbeti.png" alt="Kanal sohbeti"><br><sub><b>Sohbet</b> — sunucu / kanal sohbeti, biçim çubuğu ve çeviri</sub></td>
+<td><img src="assets/kanal-sohbeti.png" alt="Kanal sohbeti"><br><sub><b>Sohbet</b> — sunucu / kanal sohbeti, biçimlendirme ve çeviri</sub></td>
 </tr>
 <tr>
 <td><img src="assets/guc-onizleme.png" alt="Güç önizleme"><br><sub><b>Güç önizleme</b> — seçilen güçle hangi rollere yetki yetiyor</sub></td>
@@ -117,12 +118,12 @@
 
 | Bilgisayarında kalanlar (dışarı gönderilmez) | EasyPanel hesabında tutulanlar (yalnızca hesap) |
 |---|---|
-| ClientQuery API anahtarı ve ServerQuery şifresi (Windows şifrelemesiyle saklanır) | Kullanıcı adı, e-posta ve abonelik tarihleri |
+| ClientQuery API anahtarı, ServerQuery ve SSH şifresi (Windows şifrelemesiyle saklanır) | Kullanıcı adı, e-posta ve abonelik tarihleri |
 | Sunucudaki kullanıcılar, kanallar, roller, izinler ve sohbetler | Tek bilgisayar kilidi için geri döndürülemez cihaz özeti |
-| Günlük, rol, kick ve mikrofon kayıt dosyaları | Program güncellemeleri ve onay verirsen gönderilen hata raporları |
+| Eski isim arşivi, günlük, rol, kick ve mikrofon kayıt dosyaları | Program güncellemeleri, destek talepleri ve onay verirsen hata raporları |
 
 - Şifreler geri çözülemez biçimde (hash) saklanır.
-- Her abonelik tek bilgisayara bağlıdır; bilgisayar değiştirdiğinde destekten cihaz sıfırlaması isteyebilirsin.
+- Her abonelik tek bilgisayara bağlıdır; bilgisayar değiştirdiğinde ticket üzerinden cihaz sıfırlaması isteyebilirsin.
 - Hesabını istediğin zaman doğrudan program içinden silebilirsin.
 
 ## Gereksinimler
@@ -131,21 +132,21 @@
 |---|---|
 | İşletim sistemi | Windows 10 / 11 |
 | Çalışma ortamı | .NET Framework 4.x (Windows'ta hazır gelir) |
-| TeamSpeak bağlantısı | Açık TeamSpeak 3 istemcisi (ClientQuery) veya ServerQuery erişimi |
+| TeamSpeak bağlantısı | Açık TeamSpeak 3 istemcisi (ClientQuery), ServerQuery veya SSH tüneli |
 | Hesap | EasyPanel hesabı ve aktif abonelik |
 
 <a id="erisim"></a>
-## Erişim ve destek
+## Erişim, satın alma ve destek
 
 - **Web sitesi:** [easypanel.tr](https://easypanel.tr)
-- **Hesap ve destek talebi:** [easypanel.tr/hesap](https://easypanel.tr/hesap/)
-- **Discord:** `deepeep222`
+- **YaTQA Karşılaştırması:** [easypanel.tr/yatqa-alternatifi](https://easypanel.tr/yatqa-alternatifi/)
+- **Satın alma ve destek (Ticket):** [easypanel.tr/hesap/#destek](https://easypanel.tr/hesap/#destek) veya doğrudan EasyPanel uygulaması içinden destek talebi açabilirsin.
 
 ## Sık sorulanlar
 
 <details><summary><b>EasyPanel'i nasıl edinebilirim?</b></summary>
 
-Program şu an kapalı betada. Discord üzerinden `deepeep222` hesabına ulaşabilirsin. Aboneliğin tanımlandığında program ve tüm güncellemeler doğrudan uygulama içinden gelir.
+Program şu an kapalı betada. [easypanel.tr/hesap/#destek](https://easypanel.tr/hesap/#destek) sayfasından veya doğrudan EasyPanel uygulaması içinden **ticket** açarak abonelik satın alabilirsin. Aboneliğin tanımlandığında program ve tüm güncellemeler doğrudan uygulama içinden gelir.
 </details>
 
 <details><summary><b>Sunucumda yetkim kısıtlıysa ne olur?</b></summary>
