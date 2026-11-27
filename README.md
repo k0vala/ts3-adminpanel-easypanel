@@ -1,153 +1,166 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="EasyPanel — TeamSpeak 3 sunucuları için modern, Türkçe yönetim paneli (beta)" width="100%">
+  <img src="assets/logo.png" alt="EasyPanel" width="68" height="68">
+</p>
+
+<h1 align="center">EasyPanel</h1>
+
+<p align="center">
+  TeamSpeak 3 sunucuları için sade Windows yönetim paneli.<br>
+  Rol verme, kanal düzenleme, izin yönetimi ve moderasyon kayıtları tek pencerede.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/durum-kapal%C4%B1%20beta-f59e0b?style=for-the-badge" alt="Kapalı beta">
-  <img src="https://img.shields.io/badge/platform-Windows-2563eb?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/dil-T%C3%BCrk%C3%A7e%20%7C%20English-6d28d9?style=for-the-badge" alt="Türkçe ve İngilizce">
-  <img src="https://img.shields.io/badge/kurulum-gerekmez-16a34a?style=for-the-badge" alt="Kurulum gerekmez">
+  <a href="https://easypanel.tr"><b>easypanel.tr</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://easypanel.tr/hesap/">Hesabım</a>
+  &nbsp;·&nbsp;
+  <a href="#ozellikler">Özellikler</a>
+  &nbsp;·&nbsp;
+  <a href="#ekran-goruntuleri">Ekran görüntüleri</a>
+  &nbsp;·&nbsp;
+  <a href="#guvenlik">Güvenlik</a>
+  &nbsp;·&nbsp;
+  <a href="#erisim">Erişim ve destek</a>
 </p>
 
 <p align="center">
-  <b>Rolleri tek tıkla ver, kanalları toplu düzenle, kim mikrofonunu kapattı gör — karmaşık menüler olmadan.</b><br>
-  <sub>EasyPanel şu anda <b>kapalı beta</b> aşamasındadır. İndirme bağlantısı herkese açık değildir; program yalnızca abonelere verilir.</sub>
+  <sub>Windows 10 / 11 · Türkçe / English · Kurulumsuz tek dosya · Kapalı Beta</sub>
 </p>
-
----
 
 <p align="center">
   <img src="assets/genel-bakis.png" alt="EasyPanel genel bakış ekranı" width="92%">
 </p>
 
-<p align="center"><img src="assets/rakamlar.svg" alt="14 yönetim bölümü, 265+ Türkçe açıklamalı izin, 120 otomatik test, kurulum gerektirmez" width="92%"></p>
+> EasyPanel şu an kapalı beta aşamasındadır. Program tek `.exe` dosyası olarak çalışır, kurulum gerektirmez ve yalnızca abonelere dağıtılır.
 
-## ✨ Neden EasyPanel?
+---
 
-| | |
-|---|---|
-| 🇹🇷 **Tamamen Türkçe** | Her izin, her ayar, her buton anlaşılır Türkçe. İstersen tek tıkla İngilizce. |
-| 🎯 **Yetkine göre çalışır** | Sadece verebileceğin rolleri gösterir; yetkin değişince kendiliğinden güncellenir. |
-| 🛡️ **Önce onay** | Hiçbir işlem sen butona basmadan yapılmaz. Toplu işlemlerde önce özet, sonra onay. |
-| 🔒 **Verin sende** | API key, ServerQuery şifresi ve sunucundaki her şey **senin bilgisayarında** kalır. |
-| ⚡ **Sunucuyu yormaz** | Komutları akıllıca birleştirir; "Packet resend failed" ile sunucudan düşmezsin. |
-| 🪶 **Tek dosya** | Kurulum yok. Çift tıkla, bağlan, yönet. Güncellemeler program içinden gelir. |
+## Neden EasyPanel?
 
-## 🧩 Özellikler
+- **Tamamen Türkçe arayüz:** 265'ten fazla TeamSpeak izni açıklamalarıyla birlikte Türkçe. Tek tıkla İngilizceye geçilebilir.
+- **Kendi yetkinle çalışır:** Yalnızca yetkinin yettiği rolleri ve işlemleri gösterir; yetkin değiştiğinde listeler otomatik güncellenir.
+- **Onay olmadan işlem yok:** Toplu işlemlerde önce ne yapılacağı özetlenir, onay verilmeden başlamaz.
+- **Verilerin bilgisayarında kalır:** API anahtarı, ServerQuery şifresi ve sunucuna ait tüm veriler yalnızca kendi bilgisayarında tutulur.
+- **Sunucuyu yormaz:** Komutları aralıklarla ve birleştirerek gönderir; flood veya paket hatası yüzünden sunucudan düşmezsin.
+
+<a id="ozellikler"></a>
+## Özellikler
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 👥 Topluluk
-- **Kullanıcılar** — taşı, dürt, özel mesaj, kanaldan / sunucudan at, banla, Talk Power ver / al
-- **Toplu taşıma** — herkesi tek komutla bir kanala çek
-- **Toplu dürtme / mesaj** — hızlı ya da güvenli modda
-- **Mikrofon devre dışı** listesi — mikrofonunu kapatanları anında gör
-- **Sohbet** — kalın, italik, renk, boyut araç çubuğu (BBCode)
+### Roller ve kullanıcılar
+- Tek tek veya toplu rol verme / alma, rol baloncuğundan tek tıkla rol kaldırma
+- Birden fazla role göre **VE / VEYA** filtreleme
+- Client ID, DB ID, IP, Unique ID ve **eski isim geçmişi** aynı tabloda
+- Taşıma, dürtme, özel mesaj, kanaldan / sunucudan atma, banlama, Talk Power
+- Herkesi tek komutla kanala çekme, hızlı veya güvenli modda toplu dürtme / mesaj
+- Mikrofonunu devre dışı bırakanları anlık listeleme
 
-### 🏷️ Roller
-- Tek tek (sağ tık) ya da **toplu** rol ver / al
-- Role tıkla → o role sahip olanlar; iki role tıkla → **ikisine birden** sahip olanlar
-- Rol ikonları, "+N" ile kişinin tüm rolleri
-- Rolü tüm üyelerinden tek seferde al
+### Kanallar
+- Kanal ağacı ve tam ayar düzenleyici (ad, konu, açıklama, şifre, kodek, kalite, Talk Power)
+- Kanal oluşturma, alt kanal açma, silme, sıralama ve taşıma
+- Tek tek veya toplu kanal simgesi atama
+- **Toplu ad biçimi:** Tüm kanal adlarını tek seferde biçimlendirme ve geri alma
 
 </td>
 <td width="50%" valign="top">
 
-### 📺 Kanallar
-- Tam kanal düzenleyici: ad, konu, açıklama, şifre, kodek, kalite, Talk Power, tür
-- Oluştur, alt kanal aç, sil, sırala, başka kanalın altına taşı
-- **Toplu ad biçimi** — tüm kanal adlarını 𝐤𝐚𝐥ı𝐧, 𝑖𝑡𝑎𝑙𝑖𝑘… yap, geri al
-- Kanal simgeleri (tek tek ya da toplu)
+### İzinler ve moderasyon
+- TeamSpeak izin penceresinin tamamı: sunucu grupları, kişi izinleri, kanal izinleri ve kanal grupları
+- **Güç önizleme:** Seçilen güç değerinin hangi rol veya kanallara yettiğini anlık görme
+- Ban yönetimi, yetki anahtarları ve sunucu ayarları
 
-### 🛠️ Moderasyon ve sunucu
-- **Banlar**, **Kickler** (kim, kimi, neden), canlı **Günlük**
-- **Mikrofon kayıtları** — kim, ne zaman, ne kadar süre kapattı (kalıcı)
-- **İzinler** ve **Kişi İzinleri** — 265+ iznin Türkçe açıklaması
-- **Güç önizleme** — "bu güçle hangi rolleri verebilirim?"
-- **Yetki anahtarları**, **Sunucu ayarları**
+### Kayıtlar ve sohbet
+- **Rol kayıtları:** Hangi rolü kimin verip aldığının kalıcı kaydı
+- **Kick kayıtları:** Sunucudan ve kanaldan atılmalar (kim, kimi, neden)
+- **Mikrofon kayıtları:** Mikrofonunu devre dışı bırakanların zaman ve süre geçmişi
+- Günlük olay kayıtları (otomatik dosyaya yazılır)
+- **Sohbet:** Sunucu ve kanal sohbeti, BBCode biçim çubuğu ve tek tıkla 8 dile çeviri
 
 </td>
 </tr>
 </table>
 
-## 📸 Ekran görüntüleri
+<a id="ekran-goruntuleri"></a>
+## Ekran görüntüleri
 
 <table>
 <tr>
-<td width="50%"><img src="assets/roller.png" alt="Roller"><br><sub><b>Roller</b> — yetkine göre verilebilir roller, toplu ver / al</sub></td>
-<td width="50%"><img src="assets/rol-filtresi.png" alt="Rol filtresi"><br><sub><b>Rol filtresi</b> — birden fazla role sahip olanları bul</sub></td>
+<td width="50%"><img src="assets/roller.png" alt="Roller"><br><sub><b>Roller</b> — yetkiye göre listelenen roller, toplu verme ve alma</sub></td>
+<td width="50%"><img src="assets/kullanicilar.png" alt="Kullanıcılar"><br><sub><b>Kullanıcılar</b> — ID, IP, Unique ID ve eski isim geçmişi</sub></td>
 </tr>
 <tr>
-<td><img src="assets/kanal-duzenleyici.png" alt="Kanal düzenleyici"><br><sub><b>Kanallar</b> — ağaç + tam ayar düzenleyici</sub></td>
-<td><img src="assets/toplu-kanal-adi.png" alt="Toplu kanal adı biçimi"><br><sub><b>Toplu ad biçimi</b> — tüm kanallara tek tıkla yazı tipi</sub></td>
+<td><img src="assets/izinler.png" alt="İzinler"><br><sub><b>İzinler</b> — TeamSpeak izin penceresinin Türkçe hâli</sub></td>
+<td><img src="assets/kanal-duzenleyici.png" alt="Kanal düzenleyici"><br><sub><b>Kanallar</b> — kanal ağacı ve ayrıntılı ayar düzenleyici</sub></td>
 </tr>
 <tr>
-<td><img src="assets/kisi-izinleri.png" alt="Kişi izinleri"><br><sub><b>Kişi İzinleri</b> — her izin Türkçe açıklamalı</sub></td>
-<td><img src="assets/guc-onizleme.png" alt="Güç önizleme"><br><sub><b>Güç önizleme</b> — hangi rolü verebilirsin, kaç güç eksik</sub></td>
+<td><img src="assets/rol-kayitlari.png" alt="Rol kayıtları"><br><sub><b>Rol kayıtları</b> — hangi rolü kimin verip aldığının kaydı</sub></td>
+<td><img src="assets/kanal-sohbeti.png" alt="Kanal sohbeti"><br><sub><b>Sohbet</b> — sunucu / kanal sohbeti, biçim çubuğu ve çeviri</sub></td>
 </tr>
 <tr>
-<td><img src="assets/mikrofon-kayitlari.png" alt="Mikrofon kayıtları"><br><sub><b>Mikrofon kayıtları</b> — sen yokken de tutulur</sub></td>
-<td><img src="assets/sohbet.png" alt="Sohbet"><br><sub><b>Sohbet</b> — biçim araç çubuğu ve canlı önizleme</sub></td>
+<td><img src="assets/guc-onizleme.png" alt="Güç önizleme"><br><sub><b>Güç önizleme</b> — seçilen güçle hangi rollere yetki yetiyor</sub></td>
+<td><img src="assets/toplu-kanal-adi.png" alt="Toplu kanal adı biçimi"><br><sub><b>Toplu ad biçimi</b> — tüm kanal adlarını tek seferde düzenleme</sub></td>
 </tr>
 </table>
 
 <p align="center">
-  <img src="assets/kayit.png" alt="Giriş / kayıt ekranı" width="300">
+  <img src="assets/kayit.png" alt="Giriş ve kayıt ekranı" width="290">
   &nbsp;&nbsp;
-  <img src="assets/hesabim.png" alt="Hesabım penceresi" width="330">
-  <br><sub>Hesap ve abonelik: giriş / kayıt ekranı ve "Hesabım" penceresi</sub>
+  <img src="assets/hesabim.png" alt="Hesabım penceresi" width="320">
+  <br><sub>Giriş / kayıt ekranı ve Hesabım penceresi</sub>
 </p>
 
-## 🔐 Güvenlik ve gizlilik
+<a id="guvenlik"></a>
+## Güvenlik ve veri gizliliği
 
-<p align="center"><img src="assets/nasil-calisir.svg" alt="Nasıl çalışır: TeamSpeak verileri bilgisayarında kalır, bulutta yalnızca hesap ve abonelik bilgisi durur" width="100%"></p>
+| Bilgisayarında kalanlar (dışarı gönderilmez) | EasyPanel hesabında tutulanlar (yalnızca hesap) |
+|---|---|
+| ClientQuery API anahtarı ve ServerQuery şifresi (Windows şifrelemesiyle saklanır) | Kullanıcı adı, e-posta ve abonelik tarihleri |
+| Sunucudaki kullanıcılar, kanallar, roller, izinler ve sohbetler | Tek bilgisayar kilidi için geri döndürülemez cihaz özeti |
+| Günlük, rol, kick ve mikrofon kayıt dosyaları | Program güncellemeleri ve onay verirsen gönderilen hata raporları |
 
-- Program sunucuna **senin yetkilerinle** bağlanır; yetkinin yetmediği bir işlemi zaten yapamaz.
-- Toplu işlemler önce **ne yapılacağını gösterir**, sen onaylamadan başlamaz.
-- Her abonelik **tek bilgisayarda** çalışır (cihaz kilidi). Bilgisayar değiştirirsen sıfırlatman yeterli.
-- Hesabını istediğin an **program içinden silebilirsin**.
+- Şifreler geri çözülemez biçimde (hash) saklanır.
+- Her abonelik tek bilgisayara bağlıdır; bilgisayar değiştirdiğinde destekten cihaz sıfırlaması isteyebilirsin.
+- Hesabını istediğin zaman doğrudan program içinden silebilirsin.
 
-## 💻 Gereksinimler
+## Gereksinimler
 
-| | |
+| Bileşen | Gereksinim |
 |---|---|
 | İşletim sistemi | Windows 10 / 11 |
 | Çalışma ortamı | .NET Framework 4.x (Windows'ta hazır gelir) |
-| Bağlantı | Açık TeamSpeak 3 istemcisi (ClientQuery eklentisi) **veya** ServerQuery erişimi |
-| Hesap | EasyPanel hesabı + aktif abonelik |
+| TeamSpeak bağlantısı | Açık TeamSpeak 3 istemcisi (ClientQuery) veya ServerQuery erişimi |
+| Hesap | EasyPanel hesabı ve aktif abonelik |
 
-## 🗺️ Yol haritası
+<a id="erisim"></a>
+## Erişim ve destek
 
-- [x] Roller, kanallar, kullanıcılar, moderasyon, izinler
-- [x] Toplu taşıma / dürtme / mesaj, toplu kanal adı biçimi
-- [x] Mikrofon ve kick kayıtları (kalıcı)
-- [x] Hesap, abonelik, cihaz kilidi, otomatik güncelleme
-- [ ] ServerQuery ile sürekli kayıt (TeamSpeak açık olmasa da)
-- [ ] Otomatik ödeme ile abonelik
-- [ ] Daha fazla dil
+- **Web sitesi:** [easypanel.tr](https://easypanel.tr)
+- **Hesap ve destek talebi:** [easypanel.tr/hesap](https://easypanel.tr/hesap/)
+- **Discord:** `deepeep222`
 
-## ❓ Sık sorulanlar
+## Sık sorulanlar
 
-<details><summary><b>Nasıl edinebilirim?</b></summary>
+<details><summary><b>EasyPanel'i nasıl edinebilirim?</b></summary>
 
-EasyPanel şu anda kapalı betadır. Erişim için geliştiriciyle iletişime geç. Abonelik açıldıktan sonra program ve tüm güncellemeler program içinden gelir.
+Program şu an kapalı betada. Discord üzerinden `deepeep222` hesabına ulaşabilirsin. Aboneliğin tanımlandığında program ve tüm güncellemeler doğrudan uygulama içinden gelir.
 </details>
 
-<details><summary><b>Sunucumda yetkim yoksa ne olur?</b></summary>
+<details><summary><b>Sunucumda yetkim kısıtlıysa ne olur?</b></summary>
 
-Program yalnızca senin yetkinin yettiği işlemleri gösterir. Örneğin rol verme gücün 50 ise sadece 50 ve altı güç isteyen rolleri verebilirsin.
+Program yalnızca yetkinin yettiği işlemleri gösterir. Örneğin rol verme gücün 50 ise sadece 50 ve altı güç isteyen roller listelenir.
 </details>
 
-<details><summary><b>API key'im güvende mi?</b></summary>
+<details><summary><b>API key ve ServerQuery şifrem güvende mi?</b></summary>
 
-Evet. API key ve ServerQuery şifren yalnızca kendi bilgisayarında, Windows'un şifrelemesiyle saklanır; EasyPanel sunucularına hiç gönderilmez.
+Evet. Bu bilgiler yalnızca kendi bilgisayarında Windows şifrelemesiyle saklanır, EasyPanel sunucularına hiç gönderilmez.
 </details>
 
-<details><summary><b>Beta ne demek?</b></summary>
+<details><summary><b>Beta sürüm ne anlama geliyor?</b></summary>
 
-Program günlük kullanıma hazırdır ama hâlâ geliştiriliyor: yeni özellikler ekleniyor, nadiren hatalarla karşılaşabilirsin. Hata olursa program sana "raporu göndereyim mi?" diye sorar.
+Günlük kullanıma hazır ancak hâlâ yeni özellikler ekleniyor. Beklenmeyen bir hata oluşursa program istersen hata raporunu geliştiriciye göndermeni önerir.
 </details>
 
 ---
